@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madison restauracia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(185, 181, 181);
+      zoom: 150%; 
+    }
+    
+    header {
+        text-align: center;
+        padding: 8px;
+        background-image: url("../img/madisson.png");
+        background-size: cover;
+    }
+    
+    h1 {
+      font-size: 6em; 
+      font-weight: bold;
+      color: white;
+      margin: 0;
+    }
+    
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 4em;
+      }
+      .main-content {
+        margin-top: 20%;
+      }
+      .button {
+        padding: 12px 25px;
+        font-size: 1.2em;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 3em;
+      }
+      .main-content {
+        margin-top: 30%;
+      }
+      .button {
+        padding: 10px 20px;
+        font-size: 1em;
+      }
+    }
+
+    .menu-item {
+        width: 400px;
+        height: 120px; 
+        position: relative;
+        margin: 0 auto;
+        margin-top: 50px; 
+    }
+
+    .menu-item-container {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .menu-item-background {
+        width: 100%;
+        height: 100%;
+        background: white;
+        border-radius: 4px;
+        border: 0.35px black solid;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .menu-item-image {
+        width: 65px;
+        height: 51px;
+        position: absolute;
+        left: 20px;
+        top: 30px;
+    }
+
+    .menu-item-name {
+        position: absolute;
+        left: 95px;
+        top: 35px;
+        color: black;
+        font-size: 13px;
+        font-family: Inter, sans-serif;
+        font-weight: 300;
+        word-wrap: break-word;
+    }
+
+    .menu-item-description {
+        position: absolute;
+        width: 142px;
+        height: 26px;
+        left: 95px;
+        top: 55px;
+        color: #806767;
+        font-size: 10px;
+        font-family: Inter, sans-serif;
+        font-weight: 300;
+        word-wrap: break-word;
+    }
+
+    .menu-item-price {
+        position: absolute;
+        right: 10px;
+        top: 65px;
+        color: #EA741F;
+        font-size: 10px;
+        font-family: Inter, sans-serif;
+        font-weight: 700;
+        word-wrap: break-word;
+    }
+
+    .currency-icon {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 15px;
+        top: 30px;
+    }
+
+    a {
+      text-decoration: none; 
+    }
+
+  </style>
+  
+</head>
+<body>
+  <a href="defaultFood.html">
+    <header>
+      <h1>Madison</h1>
+    </header>
+  </a>
+    
+    <div class="menu-item">
+        <div class="menu-item-container">
+            <a href="pay.html">
+                <div class="menu-item-background"></div>
+                <img class="menu-item-image" src="../img/rezen.png" alt="rezen Image">
+                <div class="menu-item-name">Bravčový rezen + polievka</div>
+                <div class="menu-item-description"><br/>bravčový rezeň, zemiakova kaša, kapustová polievka</div>
+                <div class="menu-item-price">8.50 €</div>
+                <img class="currency-icon" src="../img/shopping-cart.png" alt="Euro Icon">
+            </a>
+        </div>
+    </div>
+
+    <div class="menu-item">
+        <div class="menu-item-container">
+            <a href="pay.html">
+                <div class="menu-item-background"></div>
+                <img class="menu-item-image" src="../img/steak.png" alt="steak Image">
+                <div class="menu-item-name">Steak + polievka</div>
+                <div class="menu-item-description"><br/>Hovädzí steak, pečené zemiaky, slepačí vývar</div>
+                <div class="menu-item-price">14.00 €</div>
+                <img class="currency-icon" src="../img/shopping-cart.png" alt="Euro Icon">
+            </a>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <div class="menu-item-container">
+            <a href="pay.html">
+                <div class="menu-item-background"></div>
+                <img class="menu-item-image" src="../img/rizoto.png" alt="rizoto Image">
+                <div class="menu-item-name">Pizza Mexicano</div>
+                <div class="menu-item-description"><br/>rizoto, zeleninová polievka</div>
+                <div class="menu-item-price">8.00 €</div>
+                <img class="currency-icon" src="../img/shopping-cart.png" alt="Euro Icon">
+            </a>
+        </div>
+      </div>
+  </body>
+  
+</html>

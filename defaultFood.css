@@ -1,0 +1,488 @@
+.food-preov-default {
+  background-color: #747474;
+  background-image: url("img/lazylogo"); 
+  background-size: contain;
+  background-repeat: no-repeat; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  transform-origin: top center;
+  transform: scale(2); 
+}
+
+.food-preov-default .div {
+  background-color: #ffffff;
+  width: 360px;
+  height: 937px;
+  position: relative;
+}
+
+.food-preov-default .overlap {
+  position: absolute;
+  width: 360px;
+  height: 125px;
+  top: 0;
+  left: 0;
+  background-color: #f2f2f2;
+}
+
+.food-preov-default .text-wrapper {
+  position: absolute;
+  top: 23px;
+  left: 85px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ff6600;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.food-preov-default .city {
+  position: absolute;
+  top: 71px;
+  left: 132px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.food-preov-default .line {
+  height: 2px;
+  top: 123px;
+  position: absolute;
+  width: 360px;
+  left: 0;
+}
+
+.food-preov-default .pizza {
+  position: absolute;
+  width: 35px;
+  height: 14px;
+  top: 141px;
+  left: 7px;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.food-preov-default .text-wrapper-2 {
+  position: absolute;
+  width: 33px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #c2763f;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.food-preov-default .denne-menu {
+  position: absolute;
+  width: 71px;
+  height: 14px;
+  top: 141px;
+  left: 63px;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.food-preov-default .denne-menu-2 {
+  position: absolute;
+  width: 69px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #c2763f;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.food-preov-default .hamburger {
+  position: absolute;
+  width: 64px;
+  height: 14px;
+  top: 141px;
+  left: 155px;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.food-preov-default .text-wrapper-3 {
+  position: absolute;
+  width: 62px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #c2763f;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.food-preov-default .kebab {
+  position: absolute;
+  width: 36px;
+  height: 14px;
+  top: 141px;
+  left: 240px;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.food-preov-default .text-wrapper-4 {
+  position: absolute;
+  width: 34px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #c2763f;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.food-preov-default .cestoviny {
+  position: absolute;
+  width: 56px;
+  height: 14px;
+  top: 141px;
+  left: 297px;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.food-preov-default .text-wrapper-5 {
+  position: absolute;
+  width: 54px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #c2763f;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.food-preov-default .img {
+  height: 4px;
+  top: 175px;
+  position: absolute;
+  width: 360px;
+  left: 0;
+}
+
+.food-preov-default .restauracia-madison {
+  top: 348px;
+  left: 32px;
+  position: absolute;
+  width: 300px;
+  height: 127px;
+}
+
+.food-preov-default .overlap-group-wrapper {
+  height: 127px;
+}
+
+.food-preov-default .overlap-group {
+  position: relative;
+  width: 300px;
+  height: 127px;
+}
+
+.food-preov-default .rectangle {
+  position: absolute;
+  width: 300px;
+  height: 35px;
+  top: 92px;
+  left: 0;
+  background-color: #f5eded;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.food-preov-default .text-wrapper-6 {
+  left: 24px;
+  position: absolute;
+  top: 101px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.food-preov-default .text-wrapper-7 {
+  left: 132px;
+  position: absolute;
+  top: 101px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.food-preov-default .text-wrapper-8 {
+  position: absolute;
+  top: 101px;
+  left: 235px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.food-preov-default .frame {
+  display: flex;
+  width: 282px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px 8px;
+  position: absolute;
+  top: 62px;
+  left: 0;
+  background-color: #ffffff;
+  border-right-width: 0.12px;
+  border-right-style: solid;
+  border-left-width: 0.12px;
+  border-left-style: solid;
+  border-color: #000000;
+}
+
+.food-preov-default .text-wrapper-9 {
+  position: relative;
+  width: 289px;
+  margin-top: -0.12px;
+  margin-left: -2.5px;
+  margin-right: -2.5px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.food-preov-default .text-wrapper-10 {
+  position: absolute;
+  top: 67px;
+  left: 249px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #81d73d;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.food-preov-default .pizza-img {
+  position: absolute;
+  width: 300px;
+  height: 65px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.food-preov-default .shopping-cart {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 102px;
+  left: 8px;
+  object-fit: cover;
+}
+
+.food-preov-default .clock {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 102px;
+  left: 220px;
+  object-fit: cover;
+}
+
+.food-preov-default .element {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 101px;
+  left: 116px;
+  object-fit: cover;
+}
+
+.food-preov-default .restauracia-burger {
+  position: absolute;
+  width: 300px;
+  height: 127px;
+  top: 499px;
+  left: 30px;
+}
+
+.food-preov-default .text-wrapper-11 {
+  left: 23px;
+  position: absolute;
+  top: 101px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.food-preov-default .element-min {
+  position: absolute;
+  top: 101px;
+  left: 245px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.food-preov-default .restauracia-kebab {
+  top: 650px;
+  left: 30px;
+  position: absolute;
+  width: 300px;
+  height: 127px;
+}
+
+.food-preov-default .od {
+  position: absolute;
+  top: 101px;
+  left: 22px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.food-preov-default .restauracia-wrapper {
+  top: 801px;
+  left: 30px;
+  position: absolute;
+  width: 300px;
+  height: 127px;
+}
+
+.food-preov-default .od-2 {
+  position: absolute;
+  top: 101px;
+  left: 140px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.food-preov-default .restauracia-al-dente {
+  position: absolute;
+  width: 300px;
+  height: 127px;
+  top: 198px;
+  left: 32px;
+}
+
+.food-preov-default .element-2 {
+  left: 251px;
+  position: absolute;
+  top: 67px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #81d73d;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+
+body{
+  background-color: white;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #0f0f0f;
+  width: 80%;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 9999;
+}
+
+.popup-content {
+  text-align: center;
+  color: orange;
+  font-size: 50px;
+  font-style: italic;
+}

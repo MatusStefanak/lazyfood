@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LazyFood Payment Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        main {
+            padding: 0 20px;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            font-size: 16px;
+            color: #333;
+        }
+
+        input {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #000;
+            color: #fff;
+            padding: 12px 24px;
+            cursor: pointer;
+            border: none;
+            border-radius: 4px;
+            font-size: 18px;
+        }
+
+        button:hover {
+            background-color: #333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+
+</style>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lazy Food</h1>
+        </header>
+        <main>
+            <h2>Celková suma</h2>
+            <p>11.50 eur</p>
+            <h3>Akceptované karty</h3>
+            <img src="../img/visa.jpg" alt="Visa Logo" width="64" height="64">
+            <form action="final.html" method="post">
+                <label for="card-number">Čislo Vašej karty</label>
+                <input type="text" name="card-number" id="card-number" maxlength="16">
+                <br>
+                <label for="card-expiry">Platnosť karty</label>
+                <input type="text" name="card-expiry" id="card-expiry" placeholder="MM/YYYY">
+                <br>
+                <label for="card-cvc">CV</label>
+                <input type="text" name="card-cvc" id="card-cvc" maxlength="3">
+                <br>
+                <button type="submit">ZAPLATIŤ</button>
+            </form>
+        </main>
+        <footer>
+            <p>LazyFood s.z.o., Letna 12, 040 01 Košice</p>
+        </footer>
+    </div>
+</body>
+</html>

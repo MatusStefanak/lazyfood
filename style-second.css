@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.home {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+.company-name {
+  font-size: 40px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 40px;
+  width: 100%;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+  .company-name {
+    font-size: 24px;
+  }
+
+  .content {
+    margin-top: 0;
+  }
+}
+
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .company-name {
+    font-size: 32px;
+  }
+}
+
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .company-name {
+    font-size: 40px;
+  }
+}
+
+
+@media (min-width: 1201px) {
+  .company-name {
+    font-size: 50px;
+  }
+}
